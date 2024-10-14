@@ -4,7 +4,7 @@
   font-family: "Hanken Grotesk";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/hanken-grotesk-v8-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/hanken-grotesk-v8-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* hanken-grotesk-500 - latin */
 @font-face {
@@ -12,7 +12,7 @@
   font-family: "Hanken Grotesk";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/hanken-grotesk-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/hanken-grotesk-v8-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* hanken-grotesk-700 - latin */
 @font-face {
@@ -20,7 +20,7 @@
   font-family: "Hanken Grotesk";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/hanken-grotesk-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/hanken-grotesk-v8-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* hanken-grotesk-800 - latin */
 @font-face {
@@ -28,7 +28,7 @@
   font-family: "Hanken Grotesk";
   font-style: normal;
   font-weight: 800;
-  src: url("../fonts/hanken-grotesk-v8-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("./fonts/hanken-grotesk-v8-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* @link https://utopia.fyi/type/calculator?c=375,18,1.2,1440,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
