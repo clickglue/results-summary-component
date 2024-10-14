@@ -1,21 +1,28 @@
-# Frontend Mentor - Article preview component
+# Frontend Mentor - Results summary component
 
-![Design preview for the Article preview component coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+
+## Welcome! 👋
+
+Thanks for checking out this front-end coding challenge.
+
+[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
 ### The challenge
 
 Your users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- **Bonus**: Use the local JSON data to dynamically populate the content
 
 ### Screenshot
 
-![Screenshot](./Scherm­afbeelding%202024-10-13%20om%2022.31.37.png)
+![Screenshot]()
 
 ### Links
 
-- Solution URL: [Code on Github](https://github.com/clickglue/article-preview-component)
+- Solution URL: [Code on Github](https://github.com/clickglue/results-summary-component)
 - Live Site URL: [Live site on Github Pages](https://clickglue.github.io/article-preview-component/)
 
 ## My process
@@ -24,27 +31,27 @@ time estimate: 8 hours
 
 My workflow:
 
-- [x] Study Figma file and design guide
-- [x] Create Git repo and connect to VSC repo
-- [x] Update workflow in README.md
-- [x] Copy reset.css file, create styles.css file, create main.js
-- [x] Link reset.css, styles.css and main.js (defer!) in index.html
-- [x] CSS
-  - [x] Build list of variables in :root
-  - [x] Download fonts and insert font-faces in CSS;
-  - [x] Create fluid font sizes and spacing with Utopia
-- [x] HTML
-  - [x] Create anchors (main, header, footer)
-  - [x] Structure content based on the design file
-  - [x] Put content in sections
-  - [x] Add CSS classes with BEM notation to the sections
-  - [x] Develop CSS content for mobile. Work from elements high in the tree to elements lower in the tree.
-  - [x] CSS Content for other formats
-- [x] JS
-  - [x] Build js
-- [x] Test and iterate
-- [x] Publish and solve links
-- [x] Update README.md
+- [ ] Study Figma file and design guide
+- [ ] Create Git repo and connect to VSC repo
+- [ ] Update workflow in README.md
+- [ ] Copy reset.css file, create styles.css file, create main.js
+- [ ] Link reset.css, styles.css and main.js (defer!) in index.html
+- [ ] CSS
+  - [ ] Build list of variables in :root
+  - [ ] Download fonts and insert font-faces in CSS;
+  - [ ] Create fluid font sizes and spacing with Utopia
+- [ ] HTML
+  - [ ] Create anchors (main, header, footer)
+  - [ ] Structure content based on the design file
+  - [ ] Put content in sections
+  - [ ] Add CSS classes with BEM notation to the sections
+  - [ ] Develop CSS content for mobile. Work from elements high in the tree to elements lower in the tree.
+  - [ ] CSS Content for other formats
+- [ ] JS
+  - [ ] Build js
+- [ ] Test and iterate
+- [ ] Publish and solve links
+- [ ] Update README.md
 
 ### Built with
 
