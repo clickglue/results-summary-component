@@ -23,30 +23,51 @@
       </section>
       <section class="summary">
         <h1>Summary</h1>
-        <div class="details details-0">
-          <img src="./assets/images/icon-reaction.svg" alt="Reaction">
-          <h2>Reaction</h2>
-          <h3>80</h3>
-          <h4>/ 100</h4>
-        </div>
-        <div class="details details-1">
-          <img src="./assets/images/icon-memory.svg" alt="Memory">
-          <h2>Memory</h2>
-          <h3>92</h3>
-          <h4>/ 100</h4>
-        </div>
-        <div class="details details-2">
-          <img src="./assets/images/icon-verbal.svg" alt="Verbal">
-          <h2>Verbal</h2>
-          <h3>61</h3>
-          <h4>/ 100</h4>
-        </div>
-        <div class="details details-3">
-          <img src="./assets/images/icon-visual.svg" alt="Visual">
-          <h2>Visual</h2>
-          <h3>72</h3>
-          <h4>/ 100</h4>
-        </div>
+        <div id="scoreContainer"></div>
+
+        <script>
+          // Fetch the JSON data
+          fetch('./data.json')
+            .then(response => {
+              if (!response.ok) {
+                throw new Error('Network response was not ok');
+              }
+              return response.json();
+            })
+            .then(data => {
+              const container = document.getElementById('scoreContainer');
+              
+              // Loop through each item in the JSON array
+              data.forEach((item, index) => {
+                const detailsDiv = document.createElement('div');
+                // Dynamically add 'details-X' where X is the position in the array
+                detailsDiv.classList.add('details', `details-${index}`);
+        
+                const img = document.createElement('img');
+                img.src = item.icon;
+                img.alt = item.category;
+        
+                const h2 = document.createElement('h2');
+                h2.textContent = item.category;
+        
+                const h3 = document.createElement('h3');
+                h3.textContent = item.score;
+        
+                const h4 = document.createElement('h4');
+                h4.textContent = '/ 100';
+        
+                detailsDiv.appendChild(img);
+                detailsDiv.appendChild(h2);
+                detailsDiv.appendChild(h3);
+                detailsDiv.appendChild(h4);
+        
+                container.appendChild(detailsDiv);
+              });
+            })
+            .catch(error => {
+              console.error('There was a problem with the fetch operation:', error);
+            });
+        </script>
         <button><p>Continue</p></button>
       </section>
     </main>

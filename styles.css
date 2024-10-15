@@ -60,21 +60,18 @@
   --color-white: #ffffff;
   --color-light-blue: #cac9ff;
   --color-dark-navy: #303b59;
-
-}
-
-html{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 body {
   background-color: var(--color-very-light-blue);
   font-family: Hanken Grotesk;
   font-size: var(--step-0);
-margin-top: var(--space-2xl);
+  margin-top: var(--space-2xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 main {
   background-color: var(--color-white);
   width: 375px;
@@ -129,6 +126,8 @@ main {
   text-align: center;
 }
 .summary {
+  display: flex;
+  flex-direction: column;
   margin: var(--space-s) var(--space-m) var(--space-s) var(--space-m);
 }
 .summary h1 {
@@ -146,59 +145,96 @@ main {
   grid-template-columns: 1fr 5fr 1fr 2fr;
   padding: var(--space-xs) var(--space-xs) var(--space-l) var(--space-xs);
 }
-.details h2,h3,h4 {
+.details h2,
+h3,
+h4 {
   font-size: var(--step-0);
   font-weight: 700;
 }
-.details h3,h4 {
-    justify-self: end;
+.details h3,
+h4 {
+  justify-self: end;
 }
 .details h3 {
-    color: var(--color-dark-navy);
+  color: var(--color-dark-navy);
 }
 
-.details h4{
-    color: var(--color-light-blue);
+.details h4 {
+  color: var(--color-light-blue);
 }
-.details h2{
-    margin-left: 1rem;;
+.details h2 {
+  margin-left: 1rem;
 }
 .details img {
   margin: var(--space-3xs);
 }
 .details-0 {
-    background-color: #ff555511;
+  background-color: #ff555511;
 }
 .details-0 h2 {
-    color: #ff5555;
+  color: #ff5555;
 }
 .details-1 {
-    background-color: #ffb21e11;
+  background-color: #ffb21e11;
 }
 .details-1 h2 {
-    color: #ffb21e;
+  color: #ffb21e;
 }
 .details-2 {
-    background-color: #00bb8f11;
+  background-color: #00bb8f11;
 }
 .details-2 h2 {
-    color: #00bb8f;
+  color: #00bb8f;
 }
 .details-3 {
-    background-color: #1125D611;
+  background-color: #1125d611;
 }
 .details-3 h2 {
-    color: #1125D6;
+  color: #1125d6;
 }
 button {
   width: 100%;
   background-color: var(--color-dark-navy);
   border-radius: 28px;
   height: 56px;
-  margin-top: var(--space-s);
+  margin-top: var(--space-m);
+  border: none;
 }
 button p {
   color: var(--color-white);
   font-weight: 700;
   font-size: var(--step-1);
+}
+@media (min-width: 1000px) {
+  main {
+    width: 736px;
+    height: 512px;
+    display: flex;
+    border-radius: var(--space-m);
+  }
+  .result {
+    width: 368px;
+    height: 512px;
+    border-radius: var(--space-m);
+    gap: var(--space-l);
+  }
+  .result .score {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  .result .score h2 {
+    font-size: 72px;
+    margin-top: var(--space-s);
+  }
+  .result p {
+    margin-top: -2rem;
+  }
+  .summary {
+    gap: 1rem;
+  }
+  button:hover {
+    background-image: var(--color-gradient-1);
+    cursor: pointer;
+  }
 }

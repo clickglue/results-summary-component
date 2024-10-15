@@ -18,12 +18,14 @@ Your users should be able to:
 
 ### Screenshot
 
-![Screenshot]()
+![Desktop](./design/Scherm­afbeelding%202024-10-15%20om%2010.03.03.png)
+![Desktop-active](./design/Scherm­afbeelding%202024-10-15%20om%2010.03.53.png)
+![Mobile](./design/Scherm­afbeelding%202024-10-15%20om%2010.04.06.png)
 
 ### Links
 
 - Solution URL: [Code on Github](https://github.com/clickglue/results-summary-component)
-- Live Site URL: [Live site on Github Pages](https://clickglue.github.io/article-preview-component/)
+- Live Site URL: [Live site on Github Pages](https://clickglue.github.io/results-summary-component/)
 
 ## My process
 
